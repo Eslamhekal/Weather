@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(/src/components/Weather/pexels-anas-hinde-3651752.jpg);
+background-position: center;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.rela{
+  position: relative;
+}
+.abs{
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.vote{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: aqua;
+  color: red;
+  padding: 10px;
+}
+.fot{
+  position: fixed;
+  bottom: 0;
+  background-color: red;
+  width: 100%;
+}
+
+.main{
+  user-select: none;
+
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0,0,0,.4);
+}
+.location h2{
+
+  font-size: 150px;
+  color: white;
+
+}
+.zxc{
+  color: white;
+}
+.weather{
+  height: 91vh;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top{
+  margin-top: 15px;
+}
+.search{
+  width: 100%;
+
+display: flex;
+  justify-content: center;
+}
+
+
+.temp h4{
+  font-size: 50px;
+}
+
+.search input{
+  width: 40%;
+  padding: 10px;
+}
+
+
+
+
+.search input:focus{
+  outline: none;
+}
+
+.bottom p{
+  border-radius: 5px;
+}
+
+
+
+.bottom{
+  margin: auto;
+  width: 100%;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  
+}
+.bottom p{
+  padding-right: 30px;
+  padding-left: 45px;
+  color: red;
+  margin-left: 5px;
+  text-align: center;
+}
