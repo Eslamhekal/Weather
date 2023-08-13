@@ -1,0 +1,10 @@
+.portofolioList{
+    cursor: pointer;
+    user-select: none;
+}
+
+@media(max-width:767px){
+    .portofolioList{
+
+    }
+}

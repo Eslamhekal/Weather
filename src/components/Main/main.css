@@ -1,0 +1,9 @@
+*{
+    
+}
+.sectionssss{
+    min-height: 100vh;
+}
+.sectionssss>*{
+    height: calc(100vh - 70px);
+}
